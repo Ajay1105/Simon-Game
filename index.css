@@ -1,0 +1,35 @@
+body{
+    color: white;
+   text-align: center;
+    background-color: rgb(40, 6, 80);
+}
+h1{ 
+    margin-top: 5%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.box{
+    margin: 15px;
+    border: black;
+    border-width: 5px;
+    border-style: solid;
+    background-color: yellow;
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+    border-radius: 20%;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+.selected{
+    opacity: 0.5;
+    border-color: white;
+    border-width: 10px;
+}
